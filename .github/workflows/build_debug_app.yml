@@ -45,3 +45,5 @@ jobs:
         with:
           name: debug-apk
           path: composeApp/build/outputs/apk/debug/**.apk
+          overwrite: true
+          retention-days: 90
