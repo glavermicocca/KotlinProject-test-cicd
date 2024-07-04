@@ -1,9 +1,9 @@
 name: Building Debug app
 
-#on:
-#  push:
-#    branches:
-#      - '**'
+on:
+  push:
+    branches:
+      - 'no-action' # non viene mai eseguita
 #  pull_request:
 #    branches:
 #      - '**'
