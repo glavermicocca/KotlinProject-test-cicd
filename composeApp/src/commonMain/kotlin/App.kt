@@ -119,3 +119,4 @@ fun BirdImageCell(image: BirdImage) {
         modifier = Modifier.fillMaxSize().aspectRatio(1.0f),
     )
 }
+

@@ -64,6 +64,9 @@ kotlin {
             implementation(libs.decompose)
             implementation(libs.decompose.jetbrains)
         }
+        commonTest.dependencies {
+            implementation(kotlin("test"))
+        }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
         }
